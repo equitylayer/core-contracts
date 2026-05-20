@@ -1,0 +1,47 @@
+{
+  "lib/CMTAT": {
+    "tag": {
+      "name": "v3.2.0",
+      "rev": "49544f4de1993008acfc9e848d0bf03bd31d8579"
+    }
+  },
+  "lib/RuleEngine": {
+    "tag": {
+      "name": "v2.1.0",
+      "rev": "461d32fca6cf501d6c15f3aed5f18855b2a6581c"
+    }
+  },
+  "lib/Rules": {
+    "rev": "59701ebf880b58ce54038618a06f2262c072bcc8"
+  },
+  "lib/eas-contracts": {
+    "tag": {
+      "name": "v1.4.0",
+      "rev": "d223e17208aa110dd5ec694d77324a2321d93201"
+    }
+  },
+  "lib/forge-std": {
+    "tag": {
+      "name": "v1.16.1",
+      "rev": "620536fa5277db4e3fd46772d5cbc1ea0696fb43"
+    }
+  },
+  "lib/openzeppelin-contracts": {
+    "tag": {
+      "name": "v5.6.1",
+      "rev": "5fd1781b1454fd1ef8e722282f86f9293cacf256"
+    }
+  },
+  "lib/openzeppelin-contracts-upgradeable": {
+    "tag": {
+      "name": "v5.6.1",
+      "rev": "7bf4727aacdbfaa0f36cbd664654d0c9e1dc52bf"
+    }
+  },
+  "lib/semaphore": {
+    "tag": {
+      "name": "v4.14.0",
+      "rev": "1dc597a17528e521a6eef4287741e2a893c2efc5"
+    }
+  }
+}

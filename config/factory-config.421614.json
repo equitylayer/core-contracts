@@ -1,0 +1,7 @@
+{
+  "treasury": "0xc7731091D46042C2107Cf2144555757Aa92Fc6E9",
+  "owner": "0xFA43765286aa98FB34790e8AAf2Eccf3E360a906",
+  "operator": "0xb3dcAF7d8CB07137610c2aAcAB29ca452DED1c2B",
+  "deploymentFee": "1000000000000000",
+  "shareClassFee": "100000000000000"
+}

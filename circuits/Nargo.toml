@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "lib/conversion_math",
+    "conversion",
+    "cn_repayment",
+]
+default-member = "conversion"

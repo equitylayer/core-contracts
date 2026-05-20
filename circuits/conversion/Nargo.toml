@@ -1,0 +1,8 @@
+[package]
+name = "conversion"
+type = "bin"
+authors = ["obolos"]
+license = "BUSL-1.1"
+
+[dependencies]
+conversion_math = { path = "../lib/conversion_math" }

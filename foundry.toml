@@ -1,0 +1,43 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib", "node_modules"]
+test = "test"
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+    "@eas/contracts/=lib/eas-contracts/contracts/",
+    # RuleEngine v2.1.0 compiles against its own bundled CMTAT (v3.0.0-rc5)
+    "lib/RuleEngine:CMTAT/=lib/RuleEngine/lib/CMTAT/contracts/",
+    "@fhenixprotocol/cofhe-contracts/=node_modules/@fhenixprotocol/cofhe-contracts/",
+    "@cofhe/mock-contracts/=node_modules/@cofhe/mock-contracts/contracts/",
+    "hardhat/=lib/forge-std/src/"
+]
+optimizer = true
+optimizer-runs = 200
+via_ir = true
+evm_version = "cancun"
+fs_permissions = [{ access = "read-write", path = "./config" }, { access = "read", path = "./out" }]
+
+ignored_warnings_from = ["lib/"]
+
+# Run with: FOUNDRY_PROFILE=dev forge build  /  FOUNDRY_PROFILE=dev forge test
+[profile.dev]
+via_ir = true
+optimizer = false
+
+[lint]
+ignore = ["test/", "script/"]
+exclude_lints = [
+    "unaliased-plain-import",
+    "unwrapped-modifier-logic",
+    "mixed-case-variable",
+    "screaming-snake-case-immutable",
+    "mixed-case-function",
+    "asm-keccak256",
+    "divide-before-multiply",
+    "pascal-case-struct",
+    "block-timestamp",
+    "unsafe-typecast",
+]
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

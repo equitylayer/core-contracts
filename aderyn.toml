@@ -1,0 +1,34 @@
+src = "src"
+exclude = [
+    "src/mocks/",
+    "src/zk-verifiers/",
+    "test/",
+    "script/",
+    "lib/",
+    "node_modules/",
+]
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+    "@eas/contracts/=lib/eas-contracts/contracts/",
+    "lib/RuleEngine:CMTAT/=lib/RuleEngine/lib/CMTAT/contracts/",
+    "CMTAT/contracts/=lib/CMTAT/contracts/",
+    "CMTAT/interfaces/=lib/CMTAT/contracts/interfaces/",
+    "RuleEngine/interfaces/=lib/RuleEngine/src/interfaces/",
+    "RuleEngine/modules/=lib/RuleEngine/src/modules/",
+    "RuleEngine/src/=lib/RuleEngine/src/",
+    "RuleEngine/=lib/RuleEngine/",
+    "Rules/=lib/Rules/src/",
+    "OZ/=lib/RuleEngine/lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+    "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+    "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+    "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+    "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+    "@fhenixprotocol/cofhe-contracts/=node_modules/@fhenixprotocol/cofhe-contracts/",
+    "@cofhe/mock-contracts/=node_modules/@cofhe/mock-contracts/contracts/",
+    "hardhat/=lib/forge-std/src/",
+    "@semaphore/contracts/=lib/semaphore/packages/contracts/contracts/",
+    "eas-contracts/=lib/eas-contracts/contracts/",
+    "semaphore/=lib/semaphore/packages/cli-template-contracts-foundry/src/"
+]
