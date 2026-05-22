@@ -1,74 +1,70 @@
 {
-	"MockChainalysisOracle": "0x7490067e381a102e71cf2f4d44ef5d2467749010",
-	"MockUSD": "0xe50c8088e12d42eafd940155a74ffd96baf81378",
-	"ProviderRegistry": "0x2778ad95ce3314bc925965d6649980e04a9e28aa",
-	"ERC1967Proxy": "0x987b40dd76dbe4911ec7cf98e3f0696bfa098381",
-	"AttestationProvider": "0x0e420d3707e0cbb4ebe1201641d2b1b51879aa56",
-	"Company": "0x83fd39e154a6c5f1a72df4136de9f5a0d8ae1600",
-	"ShareToken": "0xe615842ad4c97dc329763391ec46a11b62ec5bd3",
-	"Vault": "0xc2cdd39f3e6be518dc630d51293e545d367bc450",
-	"VestingSchedule": "0x9c6b2c869fef45ce14facb51fd67f9b569b482c9",
-	"OptionPool": "0xe0a28203272fbd9b711eb2597647991c15c9c26c",
-	"SAFE": "0x2c28f6407bb87bcf0eb805430d3e565015fe0ef4",
-	"Fundraise": "0x832a115f111fd28add391f4d024fa671f95c4cc3",
-	"ConvertibleNote": "0x0d6dbe2a977e2b87d8a9f5c7b7b69b0d1ba48e8f",
-	"ShareholderRegistry": "0x71e2c3db3ce4a365cb10418d4ffb62831297312c",
-	"SnapshotEngine": "0x9c8a65b1899587ca1c974deeb06f3375690a4654",
-	"DataRoom": "0xf076bb42f47bce0c16cd967a9e000793c831ffcd",
-	"SharedHonkVerifier": "0x45a6ddce116ad18acc4aaea372552e9b1648a5d5",
-	"SafeBatchConversionVerifier": "0x57f1cccb9d771a8a35c7e17eeb351eaacbd9db01",
-	"CnBatchConversionVerifier": "0xdc4e24284717bd89b521357e9de18e1f5b0dacaf",
-	"CompanyFactory": "0x1dbd75712bc388c1cb15cc608eae10390ca352a9",
-	"CompanyFactoryView": "0x3f4763c55b9928cf85dd02e65cc1de2c8897ff2a",
-	"RuleOFAC": "0xc7787197925cfddf631c9f0320a6f49f9f7953d2",
-	"RuleKYC": "0x3f48eab483b7be60634f38a05e848240723b59ca",
-	"RuleCountryBlocklist": "0x9901bbecfd736a3e19d9d78666f3cbcfeeaeb648",
-	"RuleAccredited": "0x2c5aaa4af871dc9d3855f4501685cf8a8d1fce22",
-	"RuleRegS": "0x20fba18d91631e4ed41c4b560e0b43623f7bbb4b",
-	"RuleHoldingPeriod": "0xc15d6baae964e15c5c602ba5d5d266228718c5b5",
-	"RuleRegistry": "0xbb9af7378258745e063f968cb8f3223bf37b31fa",
-	"chainId": 421614,
-	"companyImplementation": "0x83fD39e154a6c5f1a72DF4136dE9f5A0D8ae1600",
-	"convertibleNoteImplementation": "0x0D6DBE2a977E2b87d8A9f5C7b7b69B0d1BA48E8f",
-	"dataRoomImplementation": "0xf076Bb42F47bcE0c16cd967a9e000793c831fFcd",
-	"fundraiseImplementation": "0x832A115f111fD28add391f4d024fa671F95C4cC3",
-	"optionPoolImplementation": "0xe0a28203272FBD9B711Eb2597647991C15c9c26C",
-	"ruleAccreditedImplementation": "0x2c5aAa4AF871DC9D3855F4501685cf8a8d1fcE22",
-	"ruleCountryBlocklistImplementation": "0x9901bBeCfD736A3E19D9D78666f3cBcFeeaeb648",
-	"ruleHoldingPeriodImplementation": "0xC15d6BaAE964e15C5C602ba5d5d266228718C5B5",
-	"ruleKYCImplementation": "0x3f48eab483B7Be60634F38A05E848240723B59cA",
-	"ruleOFACImplementation": "0xC7787197925CfDDF631c9F0320A6F49f9F7953D2",
-	"ruleRegSImplementation": "0x20Fba18D91631E4ED41C4B560e0B43623F7BbB4b",
-	"safeImplementation": "0x2c28F6407bb87bcf0eB805430d3e565015FE0Ef4",
-	"shareholderRegistryImplementation": "0x71e2C3db3Ce4A365Cb10418D4FfB62831297312C",
-	"snapshotEngineImplementation": "0x9C8A65b1899587CA1c974dEeB06F3375690a4654",
-	"tokenImplementation": "0xE615842aD4C97DC329763391ec46A11b62ec5Bd3",
-	"vaultImplementation": "0xc2Cdd39f3e6be518dc630D51293E545D367Bc450",
-	"vestingImplementation": "0x9c6B2C869Fef45cE14faCb51Fd67F9B569b482c9",
-	"companyFactoryDefaultPaymentToken": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC",
-	"companyFactoryDeploymentFee": 1000000000000000,
-	"companyFactoryOperator": "0xb3dcAF7d8CB07137610c2aAcAB29ca452DED1c2B",
-	"companyFactoryOwner": "0xFA43765286aa98FB34790e8AAf2Eccf3E360a906",
-	"companyFactoryShareClassFee": 100000000000000,
-	"companyFactoryTreasury": "0xc7731091D46042C2107Cf2144555757Aa92Fc6E9",
-	"attestationProvider": "0x0E420D3707E0cBB4EBE1201641D2B1B51879AA56",
-	"cnConversionVerifier": "0xDc4E24284717BD89b521357E9De18e1f5B0dAcAF",
-	"companyFactory": "0xfC98d5A258086DC3c862cD5379d78b544cC30eaF",
-	"companyFactoryImplementation": "0x1dbD75712bc388C1Cb15cC608EaE10390Ca352a9",
-	"companyFactoryView": "0x3F4763c55b9928Cf85DD02E65cC1DE2c8897Ff2A",
-	"eas": "0x2521021fc8BF070473E1e1801D3c7B4aB701E1dE",
-	"providerRegistry": "0x395b9c79169025fe379428f957600C87E753c483",
-	"providerRegistryImplementation": "0x2778AD95ce3314bC925965D6649980E04A9E28AA",
-	"ruleRegistry": "0x987B40DD76DBe4911Ec7CF98E3f0696Bfa098381",
-	"ruleRegistryImplementation": "0xbb9aF7378258745e063f968cb8f3223bf37b31fa",
-	"safeConversionVerifier": "0x57F1cCCb9d771a8A35c7E17eEB351eAacBd9DB01",
-	"sharedHonkVerifier": "0x45a6Ddce116Ad18Acc4AaEA372552e9B1648A5d5",
-	"deploymentBlock": 10852390,
-	"deploymentTimestamp": 1778779460,
-	"schemaVersion": 2,
-	"accSchema": "0x4585b05524723ac6120195e103795d44407f1bfd3db3481c821bf9b305980427",
-	"idSchema": "0x9e7f40ea480f99fca7608851ffe11832fdcc03b9ccf9a69defe20a58a6d7d83a",
-	"taxSchema": "0x0aa8d1fcaab94f57ed9ad426dffe5d1334ace1c826b6771daf89347674a32330",
-	"mockChainalysisOracle": "0x7490067E381a102e71CF2f4D44eF5D2467749010",
-	"mockUSD": "0xE50c8088e12D42EaFD940155a74FfD96baF81378"
+  "chainId": 421614,
+  "cloneImplementations": {
+    "company": "0x2Cef31a2c170533d9697Ab942eeBEbD080FCFA85",
+    "convertibleNote": "0x954104aA27d42Cf5d522B7a62A79CDcA4026e78d",
+    "dataRoom": "0x85Ba472bdA8C63C987EE52E17Ae2471562F5aF67",
+    "fundraise": "0x791ecd78036bD5Eb729e3100fA7Bf43d4bfAF4dA",
+    "optionPool": "0xBA81cB6607efDC97e800EeF788953c0eF02D9167",
+    "ruleAccredited": "0x3380aA8Ba399508a74485Bbb6b421fCac2503AA2",
+    "ruleCountryBlocklist": "0x6232D6e88C22741DeaD876b9d9869227698E00c6",
+    "ruleHoldingPeriod": "0x396f908D1a98139aB5a6bbBE026e887EBfF47e87",
+    "ruleKYC": "0x7c10E44FC2589aD038771a3e584689Bca019a3FB",
+    "ruleOFAC": "0x80325753082e2Cb6f4aFeD582A9b435e54C31467",
+    "ruleRegS": "0xDce84C5121278479fcfd58DD55e9513679548d73",
+    "safe": "0xa91Fa8AC6337f6Ec22c1f1d71C9e6B2226A19e21",
+    "shareholderRegistry": "0x4A116c2F612A432f0b0e8DDF55DAd54c75a5d7FE",
+    "snapshotEngine": "0xafE0ba0b1E46ef24c701289d8941cfFD9e2DFD88",
+    "token": "0x529f181821086d5A9822FCaeb89b0F278FD11400",
+    "vault": "0xA551bDBC4EB57Da9eAa09c2677ac526f71558d37",
+    "vesting": "0xB6D18eBBDb0275f3aa3C58e2CE667576dDa34688"
+  },
+  "config": {
+    "defaultPaymentToken": "0xa9012a055bd4e0eDfF8Ce09f960291C09D5322dC",
+    "deploymentFee": 1000000000000000,
+    "operator": "0xb3dcAF7d8CB07137610c2aAcAB29ca452DED1c2B",
+    "owner": "0xFA43765286aa98FB34790e8AAf2Eccf3E360a906",
+    "shareClassFee": 100000000000000,
+    "treasury": "0xc7731091D46042C2107Cf2144555757Aa92Fc6E9"
+  },
+  "contracts": {
+    "attestationProvider": {
+      "address": "0x74C004b801AB26513f00C6A24Df491e9201b23a6"
+    },
+    "cnRepayVerifier": {
+      "address": "0xc6697C53A6Ca8378891c71cD743CCF6f48e4A9C0"
+    },
+    "companyFactory": {
+      "implementation": "0xb49972509da81c96ba2f47E3BA5E12c188cD01cE",
+      "proxy": "0xBc531027485c2a23C290390E6Ae5EdC484b4C622"
+    },
+    "companyFactoryView": {
+      "address": "0x58c39537754bE2ece944169196FD332C6Dfe8C4f"
+    },
+    "conversionVerifier": {
+      "address": "0x40d38EDE3673d70E369DB8977E55555469fB6D55"
+    },
+    "eas": {
+      "address": "0x2521021fc8BF070473E1e1801D3c7B4aB701E1dE"
+    },
+    "providerRegistry": {
+      "implementation": "0xeAc3506EC3fdCC7Cbfcb2D427471205E909806bC",
+      "proxy": "0xbb011aA762511a95043dbab30b4240Bf5C359fed"
+    },
+    "ruleRegistry": {
+      "implementation": "0xF40CA45bBd3848d3105Fb81c58fF46B3cBf26652",
+      "proxy": "0xA7Fb3264459cd37adFB7c8804df91fCA6eA0cbEd"
+    },
+    "sharedHonkVerifier": {
+      "address": "0xBCe32aa6c870460710F9594A53E55Cb362777A77"
+    }
+  },
+  "deploymentBlock": 10897906,
+  "deploymentTimestamp": 1779454606,
+  "schemaVersion": 2,
+  "schemas": {
+    "accSchema": "0x4585b05524723ac6120195e103795d44407f1bfd3db3481c821bf9b305980427",
+    "idSchema": "0x9e7f40ea480f99fca7608851ffe11832fdcc03b9ccf9a69defe20a58a6d7d83a",
+    "taxSchema": "0x0aa8d1fcaab94f57ed9ad426dffe5d1334ace1c826b6771daf89347674a32330"
+  }
 }
